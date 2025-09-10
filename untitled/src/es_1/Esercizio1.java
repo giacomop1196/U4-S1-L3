@@ -24,10 +24,10 @@ public class Esercizio1 {
         Rettangolo rettangolo1 = new Rettangolo(10.0, 5.0);
         Rettangolo rettangolo2 = new Rettangolo(7.0, 3.5);
 
-        System.out.println("--- Stampiamo il primo rettangolo ---");
+        System.out.println("--- Il primo rettangolo ---");
         stampaRettangolo(rettangolo1);
 
-        System.out.println("\n--- Stampiamo i due rettangoli e le loro somme ---");
+        System.out.println("\n--- I due rettangoli e le loro somme ---");
         stampaDueRettangoli(rettangolo1, rettangolo2);
     }
 }
